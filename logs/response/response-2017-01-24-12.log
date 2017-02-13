@@ -1,0 +1,13 @@
+[2017-01-24 12:02:46.234] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"zhangshanshan","password":"123456"}
+response time: 180
+response status: 204
+response body: 
+null
+*************** response log end ***************
+

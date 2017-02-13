@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='/stylesheets/form.css')
+        script(src='/javascripts/common/jquery-2.1.1.min.js')
+        script(src='/javascripts/feedback.js')
+    body
+        h1 用户反馈
+        form.ui-form
+            textarea#back-text(maxlength='200')
+            input#btn-submit.ui-button-green(type='button',value='提交')

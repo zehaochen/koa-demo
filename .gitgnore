@@ -1,0 +1,7 @@
+/node_modules
+.git
+.idea
+/target/
+/org.eclipse.wst.validation.prefs
+*.project
+*.classpath

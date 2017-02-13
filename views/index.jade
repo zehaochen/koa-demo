@@ -1,0 +1,20 @@
+
+
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/form.css')
+    link(rel='stylesheet', href='/stylesheets/userFeedback.css')
+    script(src='/javascripts//common/jquery-2.1.1.min.js')
+    script(src='/javascripts/login.js')
+  body.ui-page
+    h1.title= title
+    form.ui-form
+      div.ui-form-item
+        input.ui-input#userName(name='userName',placeholder='手机号/用户名')
+      div.ui-form-item
+        input.ui-input#passWord(name='password',placeholder='请输入密码')
+      div.ui-button-box
+        input#btn-submit.ui-button.ui-button-green.ui-button-large(type='button',value='提交')

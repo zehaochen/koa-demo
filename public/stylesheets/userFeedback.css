@@ -1,0 +1,21 @@
+#feedback-wrap li{
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+.update-btn,.del-btn{
+    background-color: #14d384;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    width: 60px;
+    margin: 0 15px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+.list-info{
+    border:1px solid #ccc!important;
+    width:50%;
+}

@@ -1,0 +1,212 @@
+[2017-02-09 17:01:17.718] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 342
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>koa2 Demo</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"><link rel=\"stylesheet\" href=\"/stylesheets/form.css\"><link rel=\"stylesheet\" href=\"/stylesheets/userFeedback.css\"><script src=\"/javascripts//common/jquery-2.1.1.min.js\"></script><script src=\"/javascripts/login.js\"></script></head><body class=\"ui-page\"><h1 class=\"title\">koa2 Demo</h1><form class=\"ui-form\"><div class=\"ui-form-item\"><input id=\"userName\" name=\"userName\" placeholder=\"手机号/用户名\" class=\"ui-input\"></div><div class=\"ui-form-item\"><input id=\"passWord\" name=\"password\" placeholder=\"请输入密码\" class=\"ui-input\"></div><div class=\"ui-button-box\"><input id=\"btn-submit\" type=\"button\" value=\"提交\" class=\"ui-button ui-button-green ui-button-large\"></div></form></body></html>"
+*************** response log end ***************
+
+[2017-02-09 17:01:17.970] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-02-09 17:02:04.155] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"jianwei","password":"123456"}
+response time: 219
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-02-09 17:02:35.980] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"jianwei","password":"123456"}
+response time: 170
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-02-09 17:02:40.220] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 276
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>koa2 Demo</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"><link rel=\"stylesheet\" href=\"/stylesheets/form.css\"><link rel=\"stylesheet\" href=\"/stylesheets/userFeedback.css\"><script src=\"/javascripts//common/jquery-2.1.1.min.js\"></script><script src=\"/javascripts/login.js\"></script></head><body class=\"ui-page\"><h1 class=\"title\">koa2 Demo</h1><form class=\"ui-form\"><div class=\"ui-form-item\"><input id=\"userName\" name=\"userName\" placeholder=\"手机号/用户名\" class=\"ui-input\"></div><div class=\"ui-form-item\"><input id=\"passWord\" name=\"password\" placeholder=\"请输入密码\" class=\"ui-input\"></div><div class=\"ui-button-box\"><input id=\"btn-submit\" type=\"button\" value=\"提交\" class=\"ui-button ui-button-green ui-button-large\"></div></form></body></html>"
+*************** response log end ***************
+
+[2017-02-09 17:02:41.723] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 49
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>koa2 Demo</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"><link rel=\"stylesheet\" href=\"/stylesheets/form.css\"><link rel=\"stylesheet\" href=\"/stylesheets/userFeedback.css\"><script src=\"/javascripts//common/jquery-2.1.1.min.js\"></script><script src=\"/javascripts/login.js\"></script></head><body class=\"ui-page\"><h1 class=\"title\">koa2 Demo</h1><form class=\"ui-form\"><div class=\"ui-form-item\"><input id=\"userName\" name=\"userName\" placeholder=\"手机号/用户名\" class=\"ui-input\"></div><div class=\"ui-form-item\"><input id=\"passWord\" name=\"password\" placeholder=\"请输入密码\" class=\"ui-input\"></div><div class=\"ui-button-box\"><input id=\"btn-submit\" type=\"button\" value=\"提交\" class=\"ui-button ui-button-green ui-button-large\"></div></form></body></html>"
+*************** response log end ***************
+
+[2017-02-09 17:02:55.141] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"jianwei","password":"123456"}
+response time: 21
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-02-09 17:10:40.443] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 263
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>koa2 Demo</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"><link rel=\"stylesheet\" href=\"/stylesheets/form.css\"><link rel=\"stylesheet\" href=\"/stylesheets/userFeedback.css\"><script src=\"/javascripts//common/jquery-2.1.1.min.js\"></script><script src=\"/javascripts/login.js\"></script></head><body class=\"ui-page\"><h1 class=\"title\">koa2 Demo</h1><form class=\"ui-form\"><div class=\"ui-form-item\"><input id=\"userName\" name=\"userName\" placeholder=\"手机号/用户名\" class=\"ui-input\"></div><div class=\"ui-form-item\"><input id=\"passWord\" name=\"password\" placeholder=\"请输入密码\" class=\"ui-input\"></div><div class=\"ui-button-box\"><input id=\"btn-submit\" type=\"button\" value=\"提交\" class=\"ui-button ui-button-green ui-button-large\"></div></form></body></html>"
+*************** response log end ***************
+
+[2017-02-09 17:10:52.422] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"123456789","password":"123456"}
+response time: 172
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-02-09 17:16:58.221] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 342
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>koa2 Demo</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"><link rel=\"stylesheet\" href=\"/stylesheets/form.css\"><link rel=\"stylesheet\" href=\"/stylesheets/userFeedback.css\"><script src=\"/javascripts//common/jquery-2.1.1.min.js\"></script><script src=\"/javascripts/login.js\"></script></head><body class=\"ui-page\"><h1 class=\"title\">koa2 Demo</h1><form class=\"ui-form\"><div class=\"ui-form-item\"><input id=\"userName\" name=\"userName\" placeholder=\"手机号/用户名\" class=\"ui-input\"></div><div class=\"ui-form-item\"><input id=\"passWord\" name=\"password\" placeholder=\"请输入密码\" class=\"ui-input\"></div><div class=\"ui-button-box\"><input id=\"btn-submit\" type=\"button\" value=\"提交\" class=\"ui-button ui-button-green ui-button-large\"></div></form></body></html>"
+*************** response log end ***************
+
+[2017-02-09 17:17:10.531] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"18516842876","password":"123456"}
+response time: 149
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-02-09 17:18:29.293] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 317
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>koa2 Demo</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"><link rel=\"stylesheet\" href=\"/stylesheets/form.css\"><link rel=\"stylesheet\" href=\"/stylesheets/userFeedback.css\"><script src=\"/javascripts//common/jquery-2.1.1.min.js\"></script><script src=\"/javascripts/login.js\"></script></head><body class=\"ui-page\"><h1 class=\"title\">koa2 Demo</h1><form class=\"ui-form\"><div class=\"ui-form-item\"><input id=\"userName\" name=\"userName\" placeholder=\"手机号/用户名\" class=\"ui-input\"></div><div class=\"ui-form-item\"><input id=\"passWord\" name=\"password\" placeholder=\"请输入密码\" class=\"ui-input\"></div><div class=\"ui-button-box\"><input id=\"btn-submit\" type=\"button\" value=\"提交\" class=\"ui-button ui-button-green ui-button-large\"></div></form></body></html>"
+*************** response log end ***************
+
+[2017-02-09 17:18:41.302] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"151561515","password":"5454"}
+response time: 157
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-02-09 17:20:08.344] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 270
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>koa2 Demo</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"><link rel=\"stylesheet\" href=\"/stylesheets/form.css\"><link rel=\"stylesheet\" href=\"/stylesheets/userFeedback.css\"><script src=\"/javascripts//common/jquery-2.1.1.min.js\"></script><script src=\"/javascripts/login.js\"></script></head><body class=\"ui-page\"><h1 class=\"title\">koa2 Demo</h1><form class=\"ui-form\"><div class=\"ui-form-item\"><input id=\"userName\" name=\"userName\" placeholder=\"手机号/用户名\" class=\"ui-input\"></div><div class=\"ui-form-item\"><input id=\"passWord\" name=\"password\" placeholder=\"请输入密码\" class=\"ui-input\"></div><div class=\"ui-button-box\"><input id=\"btn-submit\" type=\"button\" value=\"提交\" class=\"ui-button ui-button-green ui-button-large\"></div></form></body></html>"
+*************** response log end ***************
+
+[2017-02-09 17:21:52.297] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 48
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>koa2 Demo</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"><link rel=\"stylesheet\" href=\"/stylesheets/form.css\"><link rel=\"stylesheet\" href=\"/stylesheets/userFeedback.css\"><script src=\"/javascripts//common/jquery-2.1.1.min.js\"></script><script src=\"/javascripts/login.js\"></script></head><body class=\"ui-page\"><h1 class=\"title\">koa2 Demo</h1><form class=\"ui-form\"><div class=\"ui-form-item\"><input id=\"userName\" name=\"userName\" placeholder=\"手机号/用户名\" class=\"ui-input\"></div><div class=\"ui-form-item\"><input id=\"passWord\" name=\"password\" placeholder=\"请输入密码\" class=\"ui-input\"></div><div class=\"ui-button-box\"><input id=\"btn-submit\" type=\"button\" value=\"提交\" class=\"ui-button ui-button-green ui-button-large\"></div></form></body></html>"
+*************** response log end ***************
+
+[2017-02-09 17:23:34.748] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"18516842976","password":"123456"}
+response time: 157
+response status: 200
+response body: 
+"11"
+*************** response log end ***************
+
+[2017-02-09 17:24:55.836] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"18516842976","password":"123456"}
+response time: 158
+response status: 200
+response body: 
+"11"
+*************** response log end ***************
+

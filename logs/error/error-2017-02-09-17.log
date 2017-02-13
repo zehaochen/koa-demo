@@ -1,0 +1,66 @@
+[2017-02-09 17:20:13.775] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"54156161","password":"4"}
+response time: 144
+err name: ReferenceError
+err message: result is not defined
+err stack: ReferenceError: result is not defined
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:38:8
+    at next (native)
+    at step (/Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:191)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:361
+    at run (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/_microtask.js:18:9)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+
+[2017-02-09 17:21:43.153] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"18516842976","password":"123456"}
+response time: 45
+err name: ReferenceError
+err message: result is not defined
+err stack: ReferenceError: result is not defined
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:38:8
+    at next (native)
+    at step (/Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:191)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:361
+    at run (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/_microtask.js:18:9)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+
+[2017-02-09 17:22:03.803] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"18516842976","password":"123456"}
+response time: 19
+err name: ReferenceError
+err message: result is not defined
+err stack: ReferenceError: result is not defined
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:38:8
+    at next (native)
+    at step (/Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:191)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:361
+    at run (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/_microtask.js:18:9)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+

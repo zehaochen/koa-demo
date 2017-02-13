@@ -1,0 +1,44 @@
+[2017-01-23 17:48:43.361] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"jianwei","password":"123456"}
+response time: 158
+err name: TypeError
+err message: info.length is not a function
+err stack: TypeError: info.length is not a function
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:37:26
+    at next (native)
+    at step (/Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:191)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:361
+    at run (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/_microtask.js:18:9)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+
+[2017-01-23 17:48:54.899] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"jianwei","password":"123456"}
+response time: 17
+err name: TypeError
+err message: info.length is not a function
+err stack: TypeError: info.length is not a function
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:37:26
+    at next (native)
+    at step (/Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:191)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:361
+    at run (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/_microtask.js:18:9)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+

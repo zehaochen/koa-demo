@@ -1,0 +1,44 @@
+[2017-01-24 16:39:10.448] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"zhanhshanshan","password":"123456"}
+response time: 171
+err name: ReferenceError
+err message: info is not defined
+err stack: ReferenceError: info is not defined
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:49:15
+    at next (native)
+    at step (/Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:191)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:361
+    at run (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/_microtask.js:18:9)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+
+[2017-01-24 16:39:37.716] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /toLogin
+request client ip:  ::1
+request body: 
+{"userName":"jianwei","password":"123456"}
+response time: 50
+err name: ReferenceError
+err message: info is not defined
+err stack: ReferenceError: info is not defined
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:49:15
+    at next (native)
+    at step (/Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:191)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/routes/login.js:3:361
+    at run (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:87:22)
+    at /Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/es6.promise.js:100:28
+    at flush (/Users/iqianjin-zhangshanshan/koa2-Demo/node_modules/core-js/modules/_microtask.js:18:9)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+
